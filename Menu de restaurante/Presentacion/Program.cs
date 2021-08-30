@@ -88,7 +88,7 @@ namespace Menu_de_restaurante
 			if (validate1(respuesta))
             {
                 Console.Clear();
-                // creacion de una expresion lambda con un delegado Action que indica que no va 
+                // creacion de una expresion lambda en el menu 1 con un delegado Action que indica que no va 
                 //retornar ningun valor, pero si recibe un parametro.
                 // El tipo de dato de los parametros de la exprexion lambda queda definido
                 // implicitamente por el delegado, sabiendo que un delegado es una una funcion anonima
@@ -109,7 +109,7 @@ namespace Menu_de_restaurante
                 if (validate2(respuesta))
                 {
                     Console.Clear();
-                    // creacion de una expresion lambda con un delegado Action que indica que no va 
+                    // creacion de una expresion lambda en el menu 2 con un delegado Action que indica que no va 
                     //retornar ningun valor, pero si recibe un parametro.
                     // El tipo de dato de los parametros de la exprexion lambda queda definido
                     // implicitamente por el delegado, sabiendo que un deleado es una funcion anonima

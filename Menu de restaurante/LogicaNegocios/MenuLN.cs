@@ -45,7 +45,7 @@ namespace Menu_de_restaurante.LogicaNegocios
 
 
         public void ImprimirListaCarnes(MenuCN menu){
-            // creacion de una expresion lambda con un delegado Action que indica que no va 
+            // creacion de una expresion lambda en la lista carnescon un delegado Action que indica que no va 
             //retornar ningun valor, pero si recibe un parametro.
             // El tipo de dato de los parametros de la exprexion lambda queda definido
             // implicitamente por el delegado
@@ -62,7 +62,7 @@ namespace Menu_de_restaurante.LogicaNegocios
         }
 		
         public void ImprimirListaArroces(MenuCN menu){
-            // creacion de una expresion lambda con un delegado Action que indica que no va 
+            // creacion de una expresion lambda en la lista arroces con un delegado Action que indica que no va 
             //retornar ningun valor, pero si recibe un parametro.
             // El tipo de dato de los parametros de la exprexion lambda queda definido
             // implicitamente por el delegado
@@ -78,7 +78,7 @@ namespace Menu_de_restaurante.LogicaNegocios
 			listaArroces(menu);
 		}
         public void ImprimirListaSopas(MenuCN menu){
-            // creacion de una expresion lambda con un delegado Action que indica que no va 
+            // creacion de una expresion lambda en la lista sopas con un delegado Action que indica que no va 
             //retornar ningun valor, pero si recibe un parametro.
             // El tipo de dato de los parametros de la exprexion lambda queda definido
             // implicitamente por el delegado
@@ -94,7 +94,7 @@ namespace Menu_de_restaurante.LogicaNegocios
 			listaSopas(menu);
 		}
         public void ImprimirListaMariscos(MenuCN menu){
-            // creacion de una expresion lambda con un delegado Action que indica que no va 
+            // creacion de una expresion lambda en la lista mariscos con un delegado Action que indica que no va 
             //retornar ningun valor, pero si recibe un parametro. 
             // El tipo de dato de los parametros de la exprexion lambda queda definido
             // implicitamente por el delegado
